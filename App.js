@@ -14,7 +14,7 @@ export default class App extends React.Component{
   render(){
     return(
       <NavigationContainer>
-        <StackNavigator initialRouteName='Home'
+        <Stack.Navigator initialRouteName='Home'
         screenOptions={{
           headerShown: false
         }}>
@@ -22,7 +22,7 @@ export default class App extends React.Component{
           <Stack.Screen name = 'Daily Pic' component={DailyPicScreen}></Stack.Screen>
           <Stack.Screen name = 'Space Crafts' component={SpaceCraftsScreen}></Stack.Screen>
           <Stack.Screen name = 'Star Map' component={StarMapScreen}></Stack.Screen>
-        </StackNavigator>
+        </Stack.Navigator>
       </NavigationContainer>
     )
   }
