@@ -18,10 +18,10 @@ export default class App extends React.Component{
         screenOptions={{
           headerShown: false
         }}>
-          <Stack.Screen name = 'Home' component={HomeScreen}></Stack.Screen>
-          <Stack.Screen name = 'Daily Pic' component={DailyPicScreen}></Stack.Screen>
-          <Stack.Screen name = 'Space Crafts' component={SpaceCraftsScreen}></Stack.Screen>
-          <Stack.Screen name = 'Star Map' component={StarMapScreen}></Stack.Screen>
+          <Stack.Screen name = 'Home' component={HomeScreen}/>
+          <Stack.Screen name = 'Daily Pic' component={DailyPicScreen}/>
+          <Stack.Screen name = 'Space Crafts' component={SpaceCraftsScreen}/>
+          <Stack.Screen name = 'Star Map' component={StarMapScreen}/>
         </Stack.Navigator>
       </NavigationContainer>
     )
